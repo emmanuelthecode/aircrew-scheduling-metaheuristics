@@ -1,5 +1,7 @@
 # Airline Crew Scheduling with Metaheuristics
 
+[![tests](https://github.com/emmanuelthecode/aircrew-scheduling-metaheuristics/actions/workflows/tests.yml/badge.svg)](https://github.com/emmanuelthecode/aircrew-scheduling-metaheuristics/actions/workflows/tests.yml) ![Python](https://img.shields.io/badge/python-3.10%2B-blue?logo=python&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-013243?logo=numpy&logoColor=white) ![License: MIT](https://img.shields.io/badge/license-MIT-green)
+
 Airlines have to assign crews to every flight leg they operate, and crews are expensive. Given a big list of possible crew rotations (each one covers some legs and has a cost), the job is to pick a set of rotations so that **every leg is covered exactly once** at the **lowest total cost**. That's the Set Partitioning Problem, and it's NP-hard.
 
 This repo has the three solvers I built and compared for my Evolutionary Computation module at the University of Birmingham:
